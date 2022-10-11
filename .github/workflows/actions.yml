@@ -6,7 +6,7 @@ on: push
 jobs:
   run-github-actions:
     runs-on: ubuntu-latest
-    steps:i
+    steps:
       - name: List Files
         run:  |
           pwd
